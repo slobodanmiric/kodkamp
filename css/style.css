@@ -123,5 +123,21 @@ header span {
     text-shadow: var(--textShadow);
     margin-bottom: 20px;
 }
+/****** slider ******/
+.slider {
+    text-align: center;
+}
+.slider h2 {
+    font-size: 2rem;
+    color: var(--primaryColor);
+    text-shadow: var(--textShadow);
+}
+.slider p {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.slider .item {
+    width: 95%;
+}
 
 

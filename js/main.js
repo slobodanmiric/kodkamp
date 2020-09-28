@@ -14,4 +14,12 @@ $(document).ready(function() {
     //  novosti
     $('.novosti').delay(2000).slideDown().delay(5000).fadeOut();
     
+    
+    //  owl carousel
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000
+    });
+    
 });
