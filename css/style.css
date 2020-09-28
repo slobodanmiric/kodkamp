@@ -26,7 +26,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
-button {
+button,
+input[type="submit"] {
     border: 2px solid var(--white);
     background: transparent;
     padding: 15px 30px;
@@ -35,6 +36,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 30px;
+    border-radius: 5px;
 }
 button:hover {
     background: rgba(255,255,255,.1);
@@ -139,5 +141,24 @@ header span {
 .slider .item {
     width: 95%;
 }
+/****** prijava ******/
+.prijava {
+    background: linear-gradient(45deg, rgba(30, 51, 61, .7),rgba(2, 190, 206,.7));
+    text-align: center;
+}
+.prijava h2 {
+    text-shadow: var(--textShadow);
+    color: var(--white);
+    font-size: 3rem;
+}
+input[type="email"] {
+    width: 30%;
+    border: 2px solid var(--white);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+}
+
 
 
