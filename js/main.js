@@ -1,8 +1,8 @@
 $(document).ready(function() {
     
-    
+    // kuckanje u haderu
     var typed = new Typed('.element', {
-       strings: ['radimo frntend sajta', 'radimo custom WP', 'postavljamo sajt na server'],
+        strings: ['radimo frntend sajta', 'radimo custom WP', 'postavljamo sajt na server'],
         typeSpeed: 100,
         smartBackspace: true,
         backSpeed: 100,
@@ -10,5 +10,8 @@ $(document).ready(function() {
         loopCount: Infinity,
         startDelay: 1000
     });
+    
+    //  novosti
+    $('.novosti').delay(2000).slideDown().delay(5000).fadeOut();
     
 });

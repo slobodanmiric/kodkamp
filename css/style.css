@@ -73,6 +73,17 @@ header h1 {
 header span {
     font-weight: 700;
 }
+/****** novosti ******/
+.novosti {
+    background: var(--primaryColor);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: none;
+}
 
 
 
