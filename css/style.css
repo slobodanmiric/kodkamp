@@ -7,6 +7,7 @@
     --font: 'Source Sans Pro', sans-serif;
     --fontSize: 16px;
     --transition: .3s ease;
+    --textShadow: 0 0 3px var(--textColor);
 }
 * {
     margin: 0;
@@ -39,6 +40,13 @@ button:hover {
     background: rgba(255,255,255,.1);
     cursor: pointer;
     transition: var(--transition);
+}
+.py {
+    padding: 70px 0;
+}
+.container {
+    width: 70%;
+    margin: auto;
 }
 /****************
 main
@@ -83,6 +91,15 @@ header span {
     width: 100%;
     padding: 10px;
     display: none;
+}
+/****** uvod ******/
+.uvod {
+    text-align: center;
+}
+.uvod h2 {
+    font-size: 3rem;
+    color: var(--primaryColor);
+    text-shadow: var(--textShadow);
 }
 
 
